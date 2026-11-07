@@ -1,0 +1,6 @@
+name: astrbot_plugin_dsh_control
+display_name: DSH 连接控制
+desc: 管理员通过聊天连接/断开 DSH 桥
+version: 1.0.0
+author: local
+astrbot_version: ">=4.16"

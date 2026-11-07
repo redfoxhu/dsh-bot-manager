@@ -1,0 +1,13 @@
+# Local build / IDE
+.vs/
+bin/
+obj/
+*.user
+*.suo
+
+# Runtime logs and local secrets
+*.log
+logs/
+.gh-token
+recovered*
+session-*.jsonl

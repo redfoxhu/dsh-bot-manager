@@ -1,0 +1,22 @@
+{
+  "connect_cmd": {
+    "type": "string",
+    "description": "连接 DSH 的聊天命令（不要带前导 /）",
+    "default": "连接dsh"
+  },
+  "disconnect_cmd": {
+    "type": "string",
+    "description": "断开 DSH 的聊天命令（不要带前导 /）",
+    "default": "断开dsh"
+  },
+  "status_cmd": {
+    "type": "string",
+    "description": "查询 DSH 状态的聊天命令，留空则禁用",
+    "default": "dsh状态"
+  },
+  "admin_ids": {
+    "type": "list",
+    "description": "允许切换 DSH 的 QQ 管理员列表",
+    "default": ["1031998556"]
+  }
+}
